@@ -1,0 +1,14 @@
+C:\Users\masinovic\Downloads\C Sharp\Grundlagen\Fahrzeugprojekt\bin\Debug\net8.0\Fahrzeugprojekt.exe
+C:\Users\masinovic\Downloads\C Sharp\Grundlagen\Fahrzeugprojekt\bin\Debug\net8.0\Fahrzeugprojekt.deps.json
+C:\Users\masinovic\Downloads\C Sharp\Grundlagen\Fahrzeugprojekt\bin\Debug\net8.0\Fahrzeugprojekt.runtimeconfig.json
+C:\Users\masinovic\Downloads\C Sharp\Grundlagen\Fahrzeugprojekt\bin\Debug\net8.0\Fahrzeugprojekt.dll
+C:\Users\masinovic\Downloads\C Sharp\Grundlagen\Fahrzeugprojekt\bin\Debug\net8.0\Fahrzeugprojekt.pdb
+C:\Users\masinovic\Downloads\C Sharp\Grundlagen\Fahrzeugprojekt\obj\Debug\net8.0\Fahrzeugprojekt.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\masinovic\Downloads\C Sharp\Grundlagen\Fahrzeugprojekt\obj\Debug\net8.0\Fahrzeugprojekt.AssemblyInfoInputs.cache
+C:\Users\masinovic\Downloads\C Sharp\Grundlagen\Fahrzeugprojekt\obj\Debug\net8.0\Fahrzeugprojekt.AssemblyInfo.cs
+C:\Users\masinovic\Downloads\C Sharp\Grundlagen\Fahrzeugprojekt\obj\Debug\net8.0\Fahrzeugprojekt.csproj.CoreCompileInputs.cache
+C:\Users\masinovic\Downloads\C Sharp\Grundlagen\Fahrzeugprojekt\obj\Debug\net8.0\Fahrzeugprojekt.dll
+C:\Users\masinovic\Downloads\C Sharp\Grundlagen\Fahrzeugprojekt\obj\Debug\net8.0\refint\Fahrzeugprojekt.dll
+C:\Users\masinovic\Downloads\C Sharp\Grundlagen\Fahrzeugprojekt\obj\Debug\net8.0\Fahrzeugprojekt.pdb
+C:\Users\masinovic\Downloads\C Sharp\Grundlagen\Fahrzeugprojekt\obj\Debug\net8.0\Fahrzeugprojekt.genruntimeconfig.cache
+C:\Users\masinovic\Downloads\C Sharp\Grundlagen\Fahrzeugprojekt\obj\Debug\net8.0\ref\Fahrzeugprojekt.dll

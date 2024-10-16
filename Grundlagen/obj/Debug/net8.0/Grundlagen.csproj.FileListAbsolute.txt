@@ -1,0 +1,14 @@
+C:\Users\masinovic\Downloads\C Sharp\Grundlagen\bin\Debug\net8.0\Grundlagen.exe
+C:\Users\masinovic\Downloads\C Sharp\Grundlagen\bin\Debug\net8.0\Grundlagen.deps.json
+C:\Users\masinovic\Downloads\C Sharp\Grundlagen\bin\Debug\net8.0\Grundlagen.runtimeconfig.json
+C:\Users\masinovic\Downloads\C Sharp\Grundlagen\bin\Debug\net8.0\Grundlagen.dll
+C:\Users\masinovic\Downloads\C Sharp\Grundlagen\bin\Debug\net8.0\Grundlagen.pdb
+C:\Users\masinovic\Downloads\C Sharp\Grundlagen\obj\Debug\net8.0\Grundlagen.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\masinovic\Downloads\C Sharp\Grundlagen\obj\Debug\net8.0\Grundlagen.AssemblyInfoInputs.cache
+C:\Users\masinovic\Downloads\C Sharp\Grundlagen\obj\Debug\net8.0\Grundlagen.AssemblyInfo.cs
+C:\Users\masinovic\Downloads\C Sharp\Grundlagen\obj\Debug\net8.0\Grundlagen.csproj.CoreCompileInputs.cache
+C:\Users\masinovic\Downloads\C Sharp\Grundlagen\obj\Debug\net8.0\Grundlagen.dll
+C:\Users\masinovic\Downloads\C Sharp\Grundlagen\obj\Debug\net8.0\refint\Grundlagen.dll
+C:\Users\masinovic\Downloads\C Sharp\Grundlagen\obj\Debug\net8.0\Grundlagen.pdb
+C:\Users\masinovic\Downloads\C Sharp\Grundlagen\obj\Debug\net8.0\Grundlagen.genruntimeconfig.cache
+C:\Users\masinovic\Downloads\C Sharp\Grundlagen\obj\Debug\net8.0\ref\Grundlagen.dll

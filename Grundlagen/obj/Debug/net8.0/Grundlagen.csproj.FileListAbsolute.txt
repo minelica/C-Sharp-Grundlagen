@@ -12,3 +12,4 @@ C:\Users\masinovic\Downloads\C Sharp\Grundlagen\obj\Debug\net8.0\refint\Grundlag
 C:\Users\masinovic\Downloads\C Sharp\Grundlagen\obj\Debug\net8.0\Grundlagen.pdb
 C:\Users\masinovic\Downloads\C Sharp\Grundlagen\obj\Debug\net8.0\Grundlagen.genruntimeconfig.cache
 C:\Users\masinovic\Downloads\C Sharp\Grundlagen\obj\Debug\net8.0\ref\Grundlagen.dll
+C:\Users\masinovic\Downloads\C Sharp\Grundlagen\obj\Debug\net8.0\Grundlagen.sourcelink.json

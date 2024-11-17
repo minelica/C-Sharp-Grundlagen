@@ -12,3 +12,4 @@ C:\Users\masinovic\Downloads\C Sharp\HelloWorld\obj\Debug\net8.0\refint\HelloWor
 C:\Users\masinovic\Downloads\C Sharp\HelloWorld\obj\Debug\net8.0\HelloWorld.pdb
 C:\Users\masinovic\Downloads\C Sharp\HelloWorld\obj\Debug\net8.0\HelloWorld.genruntimeconfig.cache
 C:\Users\masinovic\Downloads\C Sharp\HelloWorld\obj\Debug\net8.0\ref\HelloWorld.dll
+C:\Users\masinovic\Downloads\C Sharp\HelloWorld\obj\Debug\net8.0\HelloWorld.sourcelink.json

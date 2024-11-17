@@ -24,13 +24,16 @@ namespace Grundlagen
             // Prüft, ob noch Platz im Array für weitere Werte vorhanden ist.
             if (index < kalorienArray.Length)
             {
-                int eingabe;
+                string eingabe;
+                eingabe = Console.ReadLine();
 
-                // Versucht, die Benutzereingabe aus der Textbox "txbNeuerTag" in eine Zahl zu konvertieren.
-                if (int.TryParse(txbNeuerTag.Text, out eingabe))
+                try
                 {
+                    // Versucht, die Benutzereingabe in eine Zahl zu konvertieren.
+                    int kalorienWert = Convert.ToInt32(eingabe);
+
                     // Speichert die Eingabe im Array an der aktuellen Indexposition.
-                    kalorienArray[index] = eingabe;
+                    kalorienArray[index] = kalorienWert;
 
                     // Erhöht den Index, um den nächsten Wert in die nächste Position zu speichern.
                     index++;
@@ -38,10 +41,15 @@ namespace Grundlagen
                     // Zeigt die eingegebenen Werte in der Textbox "txbAnzeige" an, getrennt durch Zeilenumbrüche.
                     txbAnzeige.Text = string.Join(Environment.NewLine, kalorienArray.Take(index));
                 }
-                else
+                catch (FormatException)
                 {
                     // Zeigt eine Fehlermeldung an, wenn die Eingabe keine gültige Zahl ist.
                     MessageBox.Show("Bitte eine gültige Zahl eingeben.");
+                }
+                catch (OverflowException)
+                {
+                    // Zeigt eine Fehlermeldung an, wenn die Eingabe außerhalb des gültigen Bereichs liegt.
+                    MessageBox.Show("Die eingegebene Zahl ist zu groß oder zu klein.");
                 }
             }
             else
@@ -54,11 +62,15 @@ namespace Grundlagen
         // Ereignis-Handler für den Button "Korrigieren".
         private void btnKorrigieren_Click(object sender, EventArgs e)
         {
-            int tag, neuerWert;
-
-            // Versucht, die Benutzereingaben (Tag und neuer Wert) in Zahlen zu konvertieren.
-            if (int.TryParse(txbTag.Text, out tag) && int.TryParse(txbNeuerWert.Text, out neuerWert))
+            try
             {
+                // Liest die Benutzereingaben von der Konsole.
+                Console.Write("Tag: ");
+                int tag = Convert.ToInt32(Console.ReadLine());
+
+                Console.Write("Neuer Wert: ");
+                int neuerWert = Convert.ToInt32(Console.ReadLine());
+
                 // Prüft, ob der eingegebene Tag im gültigen Bereich liegt (1 bis aktuelle Anzahl von Werten).
                 if (tag >= 1 && tag <= index)
                 {
@@ -74,31 +86,42 @@ namespace Grundlagen
                     MessageBox.Show("Ungültiger Tag. Bitte einen Wert zwischen 1 und " + index + " eingeben.");
                 }
             }
-            else
+            catch (FormatException)
             {
                 // Zeigt eine Fehlermeldung an, wenn eine der Eingaben keine gültige Zahl ist.
                 MessageBox.Show("Bitte gültige Zahlen für Tag und neuen Wert eingeben.");
+            }
+            catch (OverflowException)
+            {
+                // Zeigt eine Fehlermeldung an, wenn die Eingabe außerhalb des gültigen Bereichs liegt.
+                MessageBox.Show("Die eingegebene Zahl ist zu groß oder zu klein.");
             }
         }
 
         // Ereignis-Handler für den Button "Ziel anpassen".
         private void btnZielAnpassen_Click(object sender, EventArgs e)
         {
-            int neuesZiel;
-
-            // Versucht, die Benutzereingabe aus der Textbox "txbNeuesBewegungsziel" in eine Zahl zu konvertieren.
-            if (int.TryParse(txbNeuesBewegungsziel.Text, out neuesZiel))
+            try
             {
+                // Liest die Benutzereingabe von der Konsole.
+                Console.Write("Neues Bewegungsziel: ");
+                int neuesZiel = Convert.ToInt32(Console.ReadLine());
+
                 // Aktualisiert das Bewegungsziel mit dem neuen Wert.
                 bewegungsziel = neuesZiel;
 
                 // Zeigt eine Bestätigungsmeldung mit dem neuen Bewegungsziel an.
                 MessageBox.Show("Das Bewegungsziel wurde auf " + bewegungsziel + " kcal gesetzt.");
             }
-            else
+            catch (FormatException)
             {
                 // Zeigt eine Fehlermeldung an, wenn die Eingabe keine gültige Zahl ist.
                 MessageBox.Show("Bitte eine gültige Zahl eingeben.");
+            }
+            catch (OverflowException)
+            {
+                // Zeigt eine Fehlermeldung an, wenn die Eingabe außerhalb des gültigen Bereichs liegt.
+                MessageBox.Show("Die eingegebene Zahl ist zu groß oder zu klein.");
             }
         }
 
